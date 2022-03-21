@@ -15,7 +15,6 @@ class Employee(object):
         return "{} {}".format(self.name, self.last_name)
 
 
-man = Employee("Jan", "Kowalski")
+# man = Employee("Jan", "Kowalski")
 # man.print_info()
-
-# print(f"funkcja print: {man}")
+# print(f"funkcja __str__ wywołana przez print): {man}")
